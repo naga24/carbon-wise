@@ -152,3 +152,7 @@ elif page == "Meal Plan":
 
 st.write("💡 _Try making sustainable choices to reduce your footprint!_")
 st.info("Did you know? In India, Carbon Footprint is 1-2 tons per person per year")
+
+st.markdown("---")
+
+st.markdown("Made with ❤️ by Nagarjun")
