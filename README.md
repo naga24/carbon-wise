@@ -13,20 +13,26 @@ The Sustainable Living App is designed to help users calculate their carbon foot
 
 1. Clone the repository:
 ```git clone https://github.com/yourusername/carbon-wise.git```
+
 ```cd sustainable-living-app```
 
 2. Install the required dependencies:
+
 ```pip install -r requirements.txt```
 
 3. Create a .env file in the root directory and add your Google API key:
+
 ```GEMINI_API_KEY="your_google_api_key"``
 
 ## Usage
 
 1. Run the Streamlit app:
+
 ```streamlit run app.py```
 
-2. Open your web browser and navigate to ```http://localhost:8501```.
+2. Open your web browser and navigate to 
+
+```http://localhost:8501```.
 
 3. Use the sidebar to navigate between different sections:
 
