@@ -1,21 +1,17 @@
 import streamlit as st
 import google.generativeai as genai
-import os
 import pandas as pd
 import matplotlib.pyplot as plt
-from dotenv import load_dotenv
 import re
 
-# Load environment variables
-load_dotenv()
+# Set page title and favicon
+st.set_page_config(page_title="Sustainable Living", page_icon="🌍", layout="centered")
 
 # Get API key
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = st.sidebar.text_input("Enter your Gemini API Key", type="password")
 
 # Configure Gemini API
 genai.configure(api_key=API_KEY)
-
-st.set_page_config(page_title="Sustainable Living", page_icon="🌍", layout="centered")
 
 # Carbon footprint calculation constants
 ABOUT = {
