@@ -22,7 +22,7 @@ The Sustainable Living App is designed to help users calculate their carbon foot
 
 3. Create a .env file in the root directory and add your Google API key:
 
-```GEMINI_API_KEY="your_google_api_key"``
+GEMINI_API_KEY="your_google_api_key"
 
 ## Usage
 
