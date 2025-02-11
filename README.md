@@ -39,7 +39,7 @@ a. About: Learn about carbon footprints.
 
 b. Carbon Footprint Calculator: Enter your details to calculate your carbon footprint.
 
-c. commendations: Get personalized recommendations to reduce your carbon footprint.
+c. Recommendations: Get personalized recommendations to reduce your carbon footprint.
 
 d. Meal Plan: Generate a sustainable meal plan based on your diet and location.
 
